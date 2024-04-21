@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aac87f3e8385421686b303a1adc6553c, type: 3}
+  m_Name: HintLamp
+  m_EditorClassIdentifier: 
+  ResourceId: lamp
+  Icon: {fileID: 0}
+  Price: 30
+  CountInOneGame: 999
+  LogicClass: LampHint
+  PriceType: 1
+  RewardResourcesConfig: {fileID: 11400000, guid: 9e9376025679f45ef81fe24cd8b67c00, type: 2}
