@@ -28,4 +28,5 @@ MonoBehaviour:
   DelayBetweenAdsSeconds: 0
   RewardAdsIsRestartDelay: 0
   IsTest: 0
-  TestDevices: []
+  TestDevices:
+  - 

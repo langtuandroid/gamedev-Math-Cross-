@@ -155,6 +155,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextMenu: {fileID: 2258974196282842925, guid: 15a9d192dff6a4e9f85961e9d87d9853, type: 3}
+  _nextMenuStr: 
 --- !u!114 &4400160977879696951
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -272,7 +273,7 @@ RectTransform:
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &5194049463954377835
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -286,7 +287,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -490,7 +490,7 @@ MonoBehaviour:
   _spin: {fileID: 5228281353540888503}
 --- !u!95 &3859608512604571294
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -504,7 +504,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -719,7 +718,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &2832419495810779801
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1003,7 +1002,7 @@ MonoBehaviour:
   _spin: {fileID: 5228281353540888503}
 --- !u!95 &9083611400309199176
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1017,7 +1016,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1215,6 +1213,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _nextMenu: {fileID: 2258974196282842925, guid: 15a9d192dff6a4e9f85961e9d87d9853, type: 3}
+  _nextMenuStr: 
 --- !u!225 &1505143307802190281
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -1229,7 +1228,7 @@ CanvasGroup:
   m_IgnoreParentGroups: 0
 --- !u!95 &7099587037714204201
 Animator:
-  serializedVersion: 7
+  serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -1243,7 +1242,6 @@ Animator:
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
   m_StabilizeFeet: 0
-  m_AnimatePhysics: 0
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
@@ -1692,27 +1690,27 @@ PrefabInstance:
       value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[0]'
+      propertyPath: _prizes.Array.data[0]
       value: 
       objectReference: {fileID: 11400000, guid: 2f5bf68cd39ad498d910c1ce13f8b19f, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[1]'
+      propertyPath: _prizes.Array.data[1]
       value: 
       objectReference: {fileID: 11400000, guid: ba2ae1fd34d894f67b8d13a00f092d75, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[2]'
+      propertyPath: _prizes.Array.data[2]
       value: 
       objectReference: {fileID: 11400000, guid: 9e9376025679f45ef81fe24cd8b67c00, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[3]'
+      propertyPath: _prizes.Array.data[3]
       value: 
       objectReference: {fileID: 11400000, guid: 8ea8aad9e61a1404e878de632813cd83, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[4]'
+      propertyPath: _prizes.Array.data[4]
       value: 
       objectReference: {fileID: 11400000, guid: 23b5b0e65cdf14ec9bc8af4358bbeeb0, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}
-      propertyPath: '_prizes.Array.data[5]'
+      propertyPath: _prizes.Array.data[5]
       value: 
       objectReference: {fileID: 11400000, guid: 94cc7f2c8ada34697bea26143af80af5, type: 2}
     - target: {fileID: 8907350341878503285, guid: e6fb23b3659d5441288b3fafaad3ec3a, type: 3}

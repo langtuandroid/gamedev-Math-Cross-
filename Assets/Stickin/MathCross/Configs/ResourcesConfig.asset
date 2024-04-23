@@ -18,5 +18,5 @@ MonoBehaviour:
     DefaultValue: 200
   - Id: lamp
     Sprite: {fileID: 21300000, guid: e1fba66f9562a4e45a3862c24df79813, type: 3}
-    DefaultValue: 5
+    DefaultValue: 500
   ResourcesString: []

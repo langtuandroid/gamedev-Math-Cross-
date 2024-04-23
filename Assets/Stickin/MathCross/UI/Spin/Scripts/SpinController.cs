@@ -21,7 +21,7 @@ namespace stickin.mathcross
 
         private const string SPIN_DATE_KEY = "SpinDateKey";
         private const string SHORT_DATE_FORMAT = "dd.MM.yyyy";
-        public const int MAX_COUNT_SPINS = 5;
+        public const int MAX_COUNT_SPINS = 1;
 
         [InjectField] private ResourcesService _resourcesService;
         

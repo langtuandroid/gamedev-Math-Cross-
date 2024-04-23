@@ -86,7 +86,7 @@ namespace stickin.menus
         {
             if (_menusData.StartMenu != null)
                 Show(_menusData.StartMenu);
-            
+            Input.multiTouchEnabled = false;
             OnInitComplete?.Invoke();
         }
         

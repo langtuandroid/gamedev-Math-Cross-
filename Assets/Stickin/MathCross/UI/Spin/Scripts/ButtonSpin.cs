@@ -46,8 +46,7 @@ namespace stickin.mathcross
             
             _freeText.gameObject.SetActive(isFree);
             _rewardBg.SetActive(!isFree);
-            _countText.text = SpinController.Instance.CountAvailableSpins + "/" +
-                              SpinController.MAX_COUNT_SPINS;
+            _countText.text = "Spin"; //SpinController.Instance.CountAvailableSpins + "/" + SpinController.MAX_COUNT_SPINS;
             
             // SetInteractable(!_spin.IsRun);
         }
@@ -58,17 +57,22 @@ namespace stickin.mathcross
             {
                 SpinRun();
             }
-            else if (_adsService.IsRewardAvailable())
-            {
-                if (SpinController.Instance.CountAvailableSpins > 0)
-                    _adsService.ShowReward(SpinRun);
-                else
-                    TextMessageMenu.ShowWithText("Not available spins today");
-            }
             else
             {
-                TextMessageMenu.ShowWithText(TextMessageMenu.AdsNotReady);
+                TextMessageMenu.ShowWithText("Not available spins today");
             }
+            
+            // else if (_adsService.IsRewardAvailable())
+            // {
+            //     if (SpinController.Instance.CountAvailableSpins > 0)
+            //         _adsService.ShowReward(SpinRun);
+            //     else
+            //         TextMessageMenu.ShowWithText("Not available spins today");
+            // }
+            // else
+            // {
+            //     TextMessageMenu.ShowWithText(TextMessageMenu.AdsNotReady);
+            // }
         }
 
         private void SpinRun()
